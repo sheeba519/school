@@ -1,0 +1,110 @@
+/* Footer.css */
+.footer {
+    background-color: #f2f2f2; /* Dark Blue */
+    color: #000000;
+    padding: 40px 0;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .footer-col {
+    flex: 1;
+    min-width: 250px;
+  }
+  
+  .footer-col h4 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #279883; /* Vibrant Yellow */
+    position: relative;
+  }
+  
+  .footer-col h4::after {
+    content: '';
+    background-color: #37724b;
+    width: 60px;
+    height: 2px;
+    display: block;
+    margin: 10px auto;
+    transition: width 0.3s ease;
+  }
+  
+  .footer-col h4:hover::after {
+    width: 100%;
+  }
+  
+  .footer-col ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-col ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .footer-col ul li a,
+  .footer-col ul li i {
+    color: #000000;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-col ul li:hover a,
+  .footer-col ul li:hover i {
+    color: #19cc3f; /* Change to yellow on hover */
+  }
+  
+  .footer-bottom {
+    margin-top: 20px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.7);
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+  }
+  
+  .footer-col ul li a:hover {
+    color: #e60909;
+  }
+  
+  .footer .fab, .fas {
+    font-size: 20px;
+  }
+  
+  .footer-col ul li a:hover .fab,
+  .footer-col ul li:hover .fas {
+    transform: scale(1.1); /* Animation on hover */
+  }
+  
+  .footer-container {
+    animation: fadeInUp 1.5s ease; /* Smooth entry animation */
+  }
+  
+  /* Animations */
+  @keyframes fadeInUp {
+    from {
+      transform: translateY(100px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .footer i {
+    margin-right: 8px; /* Adjust spacing between icon and text */
+    color: #000; /* Change color as needed */
+    font-size: 1.2em; /* Adjust icon size */
+}

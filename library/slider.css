@@ -1,0 +1,20 @@
+
+  .caption-left {
+    position: absolute;
+    left: 10%; /* Adjust as needed */
+    bottom: 20%; /* Adjust for vertical spacing */
+    text-align: left; /* Align text to the left */
+    color: white; /* Set text color to white */
+  }
+  
+  .caption-title {
+    font-size: 3rem; /* Adjust size as needed */
+    color: white; /* Ensure title text is white */
+  }
+  
+  .caption-text {
+    font-size: 1.5rem; /* Adjust size as needed */
+    color: white; /* Ensure paragraph text is white */
+  }
+  
+  
